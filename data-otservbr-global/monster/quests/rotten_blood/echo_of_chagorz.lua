@@ -1,7 +1,7 @@
 local mType = Game.createMonsterType("Echo Of Chagorz")
 local monster = {}
 
-monster.description = "an echo of Chagorz"
+monster.description = "a Echo Of Chagorz"
 monster.experience = 0
 monster.outfit = {
 	lookType = 1670,
