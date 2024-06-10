@@ -15,15 +15,15 @@ monster.outfit = {
 
 monster.raceId = 2382
 monster.Bestiary = {
-	class = "Magical",
-	race = BESTY_RACE_MAGICAL,
+	class = "Construct",
+	race = BESTY_RACE_CONSTRUCT,
 	toKill = 5000,
-	FirstUnlock = 200,
-	SecondUnlock = 2000,
+	FirstUnlock = 25,
+	SecondUnlock = 3394,
 	CharmsPoints = 100,
 	Stars = 5,
 	Occurrence = 0,
-	Locations = "Darklight Core",
+	Locations = "Sanctuary.",
 }
 
 monster.health = 27500
@@ -39,10 +39,9 @@ monster.changeTarget = {
 }
 
 monster.strategiesTarget = {
-	nearest = 70,
+	nearest = 80,
 	health = 10,
 	damage = 10,
-	random = 10,
 }
 
 monster.flags = {
@@ -56,11 +55,11 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 0,
-	runHealth = 0,
+	targetDistance = 1,
+	runHealth = 800,
 	healthHidden = false,
 	isBlockable = false,
-	canWalkOnEnergy = true,
+	canWalkOnEnergy = false,
 	canWalkOnFire = true,
 	canWalkOnPoison = true,
 }
@@ -69,6 +68,8 @@ monster.light = {
 	level = 0,
 	color = 0,
 }
+
+monster.voices = {}
 
 monster.loot = {
 	{ name = "crystal coin", chance = 12516, maxCount = 2 },
@@ -82,30 +83,29 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1050 },
-	{ name = "combat", interval = 2600, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -1400, maxDamage = -1750, length = 8, spread = 3, effect = CONST_ME_HITBYFIRE, target = false },
-	{ name = "combat", interval = 3100, chance = 20, type = COMBAT_HOLYDAMAGE, minDamage = -1000, maxDamage = -1600, length = 8, spread = 3, effect = CONST_ME_HOLYAREA, target = false },
-	{ name = "combat", interval = 2600, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -1200, maxDamage = -1650, radius = 5, effect = CONST_ME_HITBYFIRE, target = true },
-	{ name = "largefirering", interval = 2000, chance = 10, minDamage = -800, maxDamage = -1400, target = false },
+	{ name = "combat", interval = 3000, chance = 20, type = COMBAT_EARTHDAMAGE, minDamage = -650, maxDamage = -1000, range = 7, radius = 3, shootEffect = CONST_ANI_POISONARROW, effect = CONST_ME_GREEN_RINGS, target = true },
+	{ name = "combat", interval = 2000, chance = 10, type = COMBAT_EARTHDAMAGE, minDamage = -600, maxDamage = -1050, length = 6, spread = 4, effect = CONST_ME_GREEN_RINGS, target = false },
+	{ name = "combat", interval = 3000, chance = 20, type = COMBAT_ICEDAMAGE, minDamage = -650, maxDamage = -900, radius = 3, effect = CONST_ME_ICETORNADO, target = false },
+	{ name = "combat", interval = 3000, chance = 20, type = COMBAT_ICEDAMAGE, minDamage = -650, maxDamage = -900, range = 7, radius = 4, effect = CONST_ME_ICEATTACK, target = true },
 }
 
 monster.defenses = {
-	defense = 120,
+	defense = 100,
 	armor = 120,
 	mitigation = 3.04,
 }
 
 monster.elements = {
-	{ type = COMBAT_PHYSICALDAMAGE, percent = -15 },
+	{ type = COMBAT_PHYSICALDAMAGE, percent = -10 },
 	{ type = COMBAT_ENERGYDAMAGE, percent = -10 },
-	{ type = COMBAT_EARTHDAMAGE, percent = 5 },
+	{ type = COMBAT_EARTHDAMAGE, percent = 50 },
 	{ type = COMBAT_FIREDAMAGE, percent = 40 },
 	{ type = COMBAT_LIFEDRAIN, percent = 0 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
 	{ type = COMBAT_ICEDAMAGE, percent = 0 },
-	{ type = COMBAT_HOLYDAMAGE, percent = 25 },
-	{ type = COMBAT_DEATHDAMAGE, percent = -20 },
+	{ type = COMBAT_HOLYDAMAGE, percent = 45 },
+	{ type = COMBAT_DEATHDAMAGE, percent = -10 },
 }
 
 monster.immunities = {
