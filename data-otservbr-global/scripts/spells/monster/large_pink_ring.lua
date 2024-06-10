@@ -21,6 +21,7 @@ combatLargeRing:setParameter(COMBAT_PARAM_TYPE, COMBAT_ENERGYDAMAGE)
 combatLargeRing:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_ELECTRICALSPARK)
 combatLargeRing:setArea(createCombatArea(aLarge))
 
+
 local combats = { combatLargeRing }
 
 function spell.onCastSpell(creature, var)
