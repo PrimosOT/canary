@@ -1,11 +1,7 @@
 local mType = Game.createMonsterType("Echo Of Ichgahal")
 local monster = {}
 
-<<<<<<< HEAD
 monster.description = "a Echo Of Ichgahal"
-=======
-monster.description = "an echo of Ichgahal"
->>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 monster.experience = 0
 monster.outfit = {
 	lookType = 1669,
