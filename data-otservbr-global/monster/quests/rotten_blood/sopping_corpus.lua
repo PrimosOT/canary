@@ -1,8 +1,13 @@
 local mType = Game.createMonsterType("Sopping Corpus")
 local monster = {}
 
+<<<<<<< HEAD
+monster.description = "a Sopping Corpus"
+monster.experience = 21600
+=======
 monster.description = "a sopping corpus"
 monster.experience = 22465
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 monster.outfit = {
 	lookType = 1659,
 	lookHead = 0,
@@ -13,6 +18,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
+<<<<<<< HEAD
+=======
 monster.raceId = 2397
 monster.Bestiary = {
 	class = "Undead",
@@ -26,6 +33,7 @@ monster.Bestiary = {
 	Locations = "Jaded Roots.",
 }
 
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 monster.health = 33400
 monster.maxHealth = 33400
 monster.race = "undead"
@@ -35,6 +43,28 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
+<<<<<<< HEAD
+	chance = 10,
+}
+
+monster.raceId = 2397
+monster.Bestiary = {
+	class = "Undead",
+	race = BESTY_RACE_UNDEAD,
+	toKill = 5000,
+	FirstUnlock = 25,
+	SecondUnlock = 3394,
+	CharmsPoints = 100,
+	Stars = 5,
+	Occurrence = 0,
+	Locations = "Sanctuary.",
+}
+
+monster.strategiesTarget = {
+	nearest = 80,
+	health = 10,
+	damage = 10,
+=======
 	chance = 0,
 }
 
@@ -43,6 +73,7 @@ monster.strategiesTarget = {
 	health = 10,
 	damage = 10,
 	random = 10,
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 }
 
 monster.flags = {
@@ -54,6 +85,15 @@ monster.flags = {
 	rewardBoss = false,
 	illusionable = false,
 	canPushItems = true,
+<<<<<<< HEAD
+	canPushCreatures = true,
+	staticAttackChance = 90,
+	targetDistance = 1,
+	runHealth = 800,
+	healthHidden = false,
+	isBlockable = false,
+	canWalkOnEnergy = false,
+=======
 	canPushCreatures = false,
 	staticAttackChance = 90,
 	targetDistance = 0,
@@ -61,6 +101,7 @@ monster.flags = {
 	healthHidden = false,
 	isBlockable = false,
 	canWalkOnEnergy = true,
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 	canWalkOnFire = true,
 	canWalkOnPoison = true,
 }
@@ -70,6 +111,28 @@ monster.light = {
 	color = 0,
 }
 
+<<<<<<< HEAD
+monster.voices = {}
+
+monster.loot = {
+	{ name = "crystal coin", chance = 6961, maxCount = 1 },
+	{ name = "soul orb", chance = 10090, maxCount = 3 },
+	{ name = "lichen gobbler", chance = 8558, maxCount = 1 },
+	{ name = "decayed finger bone", chance = 10309, maxCount = 1 },
+	{ name = "rotten roots", chance = 7678, maxCount = 1 },
+	{ name = "yellow gem", chance = 12992, maxCount = 1 },
+	{ name = "underworld rod", chance = 12980, maxCount = 1 },
+	{ name = "ripper lance", chance = 8304, maxCount = 1 },
+}
+
+monster.attacks = {
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1000 },
+	{ name = "combat", interval = 2000, chance = 13, type = COMBAT_ICEDAMAGE, minDamage = -450, maxDamage = -1000, range = 7, radius = 4, shootEffect = CONST_ANI_ICE, effect = CONST_ME_BIGCLOUDS, target = true },
+	{ name = "combat", interval = 2000, chance = 17, type = COMBAT_HOLYDAMAGE, minDamage = -550, maxDamage = -900, radius = 4, effect = CONST_ME_HOLYAREA, target = false },
+	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_HOLYDAMAGE, minDamage = -750, maxDamage = -1100, range = 7, shootEffect = CONST_ANI_HOLY, effect = CONST_ME_HOLYDAMAGE, target = true },
+	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -750, maxDamage = -1100, range = 7, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_ICEATTACK, target = true },
+	{ name = "combat", interval = 2000, chance = 13, type = COMBAT_PHYSICALDAMAGE, minDamage = -550, maxDamage = -900, radius = 3, effect = CONST_ME_GROUNDSHAKER, target = false },
+=======
 monster.voices = {
 	interval = 5000,
 	chance = 10,
@@ -99,12 +162,16 @@ monster.attacks = {
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -1400, maxDamage = -1600, radius = 5, effect = CONST_ME_GROUNDSHAKER, target = true },
 	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_EARTHDAMAGE, minDamage = -1200, maxDamage = -1500, length = 8, spread = 3, effect = CONST_ME_GREEN_RINGS, target = false },
 	{ name = "largepoisonring", interval = 2000, chance = 10, minDamage = -1000, maxDamage = -1200, target = false },
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 }
 
 monster.defenses = {
 	defense = 112,
 	armor = 112,
+<<<<<<< HEAD
+=======
 	mitigation = 3.25,
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 }
 
 monster.elements = {
@@ -122,7 +189,11 @@ monster.elements = {
 
 monster.immunities = {
 	{ type = "paralyze", condition = true },
+<<<<<<< HEAD
+	{ type = "outfit", condition = false },
+=======
 	{ type = "outfit", condition = true },
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 	{ type = "invisible", condition = true },
 	{ type = "bleed", condition = false },
 }
