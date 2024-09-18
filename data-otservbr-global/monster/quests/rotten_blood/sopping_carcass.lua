@@ -1,8 +1,13 @@
 local mType = Game.createMonsterType("Sopping Carcass")
 local monster = {}
 
+<<<<<<< HEAD
 monster.description = "a Sopping Carcass"
 monster.experience = 21100
+=======
+monster.description = "a sopping carcass"
+monster.experience = 23425
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 monster.outfit = {
 	lookType = 1658,
 	lookHead = 0,
@@ -13,6 +18,22 @@ monster.outfit = {
 	lookMount = 0,
 }
 
+<<<<<<< HEAD
+=======
+monster.raceId = 2396
+monster.Bestiary = {
+	class = "Undead",
+	race = BESTY_RACE_UNDEAD,
+	toKill = 5000,
+	FirstUnlock = 200,
+	SecondUnlock = 2000,
+	CharmsPoints = 100,
+	Stars = 5,
+	Occurrence = 0,
+	Locations = "Putrefactory.",
+}
+
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 monster.health = 32700
 monster.maxHealth = 32700
 monster.race = "undead"
@@ -20,6 +41,7 @@ monster.corpse = 43832
 monster.speed = 210
 monster.manaCost = 0
 
+<<<<<<< HEAD
 monster.raceId = 2396
 monster.Bestiary = {
 	class = "Undead",
@@ -42,6 +64,18 @@ monster.strategiesTarget = {
 	nearest = 80,
 	health = 10,
 	damage = 10,
+=======
+monster.changeTarget = {
+	interval = 4000,
+	chance = 0,
+}
+
+monster.strategiesTarget = {
+	nearest = 70,
+	health = 10,
+	damage = 10,
+	random = 10,
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 }
 
 monster.flags = {
@@ -53,6 +87,7 @@ monster.flags = {
 	rewardBoss = false,
 	illusionable = false,
 	canPushItems = true,
+<<<<<<< HEAD
 	canPushCreatures = true,
 	staticAttackChance = 90,
 	targetDistance = 1,
@@ -60,6 +95,15 @@ monster.flags = {
 	healthHidden = false,
 	isBlockable = false,
 	canWalkOnEnergy = false,
+=======
+	canPushCreatures = false,
+	staticAttackChance = 90,
+	targetDistance = 0,
+	runHealth = 0,
+	healthHidden = false,
+	isBlockable = false,
+	canWalkOnEnergy = true,
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 	canWalkOnFire = true,
 	canWalkOnPoison = true,
 }
@@ -69,6 +113,7 @@ monster.light = {
 	color = 0,
 }
 
+<<<<<<< HEAD
 monster.voices = {}
 
 monster.loot = {
@@ -90,11 +135,26 @@ monster.attacks = {
 	{ name = "combat", interval = 2000, chance = 20, type = COMBAT_HOLYDAMAGE, minDamage = -750, maxDamage = -1100, range = 7, shootEffect = CONST_ANI_HOLY, effect = CONST_ME_HOLYDAMAGE, target = true },
 	{ name = "combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -750, maxDamage = -1100, range = 7, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_ICEATTACK, target = true },
 	{ name = "combat", interval = 2000, chance = 13, type = COMBAT_ICEDAMAGE, minDamage = -750, maxDamage = -900, radius = 3, effect = CONST_ME_ICEATTACK, target = false },
+=======
+monster.loot = {}
+
+monster.attacks = {
+	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1100 },
+	{ name = "combat", interval = 2000, chance = 24, type = COMBAT_DEATHDAMAGE, minDamage = -1400, maxDamage = -1500, radius = 5, effect = CONST_ME_MORTAREA, target = false },
+	{ name = "combat", interval = 2500, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -1200, maxDamage = -1400, radius = 5, effect = CONST_ME_GHOSTLY_BITE, target = false },
+	{ name = "combat", interval = 2000, chance = 25, type = COMBAT_EARTHDAMAGE, minDamage = -900, maxDamage = -1400, radius = 5, effect = CONST_ME_BIGPLANTS, target = false },
+	{ name = "combat", interval = 2000, chance = 25, type = COMBAT_DEATHDAMAGE, minDamage = -1100, maxDamage = -1550, length = 8, spread = 5, effect = CONST_ME_BLACKSMOKE, target = false },
+	{ name = "ice chain", interval = 3000, chance = 15, minDamage = -1200, maxDamage = -1500, target = false },
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 }
 
 monster.defenses = {
 	defense = 109,
 	armor = 109,
+<<<<<<< HEAD
+=======
+	mitigation = 3.28,
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 }
 
 monster.elements = {
@@ -112,7 +172,11 @@ monster.elements = {
 
 monster.immunities = {
 	{ type = "paralyze", condition = true },
+<<<<<<< HEAD
 	{ type = "outfit", condition = false },
+=======
+	{ type = "outfit", condition = true },
+>>>>>>> e940fa3c9cdf2da47d28c0257556857857fcdac7
 	{ type = "invisible", condition = true },
 	{ type = "bleed", condition = false },
 }
