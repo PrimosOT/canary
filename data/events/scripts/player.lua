@@ -571,6 +571,15 @@ function Player:onGainExperience(target, exp, rawExp)
 
 	local lowLevelBonuxExp = self:getFinalLowLevelBonus()
 	local baseRate = self:getFinalBaseRateExperience()
+	
+	local playerKv = self:kv()
+	
+	local expVoucherActive = playerKv:get("voucherActive") or ""
+	local expVoucherTime = playerKv:get("voucherTime") or 0
+	local expVoucherMultiplier = 1
+	if expVoucherActive == "experience" and expVoucherTime > os.time() then
+		expVoucherMultiplier = 2
+	end
 
 	return (exp + (exp * (xpBoostPercent / 100) + (exp * (lowLevelBonuxExp / 100)))) * staminaBonusXp * baseRate
 end
@@ -617,6 +626,15 @@ function Player:onGainSkillTries(skill, tries)
 			vipBoost = (vipBoost > 100 and 100) or vipBoost
 			skillOrMagicRate = skillOrMagicRate + (skillOrMagicRate * (vipBoost / 100))
 		end
+	end
+	
+	local playerKv = self:kv()
+	
+	local skillVoucherActive = playerKv:get("voucherActive") or ""
+	local skillVoucherTime = playerKv:get("voucherTime") or 0
+	local skillVoucherMultiplier = 1
+	if skillVoucherActive == "skill" and skillVoucherTime > os.time() then
+		skillVoucherMultiplier = 2
 	end
 
 	return tries / 100 * (skillOrMagicRate * 100)
