@@ -9,9 +9,3 @@ dofile(DATA_DIRECTORY .. "/lib/quests/quest.lua")
 
 -- Tables library
 dofile(DATA_DIRECTORY .. "/lib/tables/load.lua")
-
--- Task Custom
-dofile(DATA_DIRECTORY.. '/scripts/custom/load.lua')
-
---magic wall
-dofile(DATA_DIRECTORY .. "/lib/custom/wallscustom_lib.lua")

@@ -6419,7 +6419,7 @@ GameStore.Categories = {
 			},
 			{
 				icons = { "Gold_Pouch.png" },
-				name = "Loot Pouch",
+				name = "Gold Pouch",
 				price = 900,
 				itemtype = 23721,
 				count = 1,

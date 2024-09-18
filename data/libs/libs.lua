@@ -15,6 +15,3 @@ dofile(CORE_DIRECTORY .. "/libs/systems/load.lua")
 
 -- Tables
 dofile(CORE_DIRECTORY .. "/libs/tables/load.lua")
-
---karin
-dofile(CORE_DIRECTORY .. "/libs/kill_lib.lua")

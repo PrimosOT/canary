@@ -4,8 +4,7 @@ function callback.monsterOnSpawn(monster, position)
 	if not monster then
 		return
 	end
-	
-	monster:registerEvent('Karin_Orb_OnDeath')
+
 	HazardMonster.onSpawn(monster, position)
 
 	if monster:getType():isRewardBoss() then
