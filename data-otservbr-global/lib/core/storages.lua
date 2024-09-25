@@ -74,7 +74,14 @@ Reserved player action storage key ranges (const.h)
 
 	Questline = Storage through the Quest
 ]]
-
+Storage = {
+	-- Add the object 'Podium' to the end of the object 'Storage'.
+	Podium = {
+		One = 70991,
+		Two = 70992,
+		Three = 70993
+	}
+}
 Storage = {
 	-- General storages
 	Dragonfetish = 30003,
@@ -2715,11 +2722,6 @@ Storage = {
 					Monster = 47904,
 					MutatedAbomination = 47905,
 				},
-			},
-		},
-		U13_20 = { -- update 13.20 - Reserved Storages 47952 - 47970
-			RottenBlood = {
-				AccessDoor = 47952,
 			},
 		},
 	},

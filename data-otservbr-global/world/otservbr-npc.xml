@@ -1887,9 +1887,6 @@
 	<npc centerx="33231" centery="32423" centerz="7" radius="1">
 		<npc name="Ishina" x="0" y="0" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="33033" centery="32425" centerz="7" radius="2">
-		<npc name="Torkada" x="0" y="0" z="7" spawntime="60" direction="2"/>
-	</npc>
 	<npc centerx="32168" centery="32428" centerz="7" radius="1">
 		<npc name="Eddy" x="0" y="0" z="7" spawntime="60" />
 	</npc>
@@ -2138,6 +2135,18 @@
 	</npc>
 	<npc centerx="32194" centery="32974" centerz="7" radius="1">
 		<npc name="Meraya" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32279" centery="33998" centerz="7" radius="1">
+		<npc name="Xodet" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32250" centery="34006" centerz="7" radius="1">
+		<npc name="crazy Seller" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32259" centery="34007" centerz="7" radius="1">
+		<npc name="Imbuement Assistant" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32253" centery="34015" centerz="7" radius="1">
+		<npc name="task Seller" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="33198" centery="31060" centerz="8" radius="1">
 		<npc name="Rebel" x="0" y="0" z="8" spawntime="60" />
@@ -2444,9 +2453,6 @@
 	</npc>
 	<npc centerx="33277" centery="32390" centerz="9" radius="1">
 		<npc name="Mazarius" x="0" y="0" z="9" spawntime="60" />
-	</npc>
-	<npc centerx="32956" centery="32397" centerz="9" radius="1">
-		<npc name="Bloodshade Sacrifice" x="0" y="0" z="9" spawntime="60"/>
 	</npc>
 	<npc centerx="33020" centery="32454" centerz="9" radius="1">
 		<npc name="Omrabas" x="0" y="0" z="9" spawntime="60" />
@@ -2856,9 +2862,6 @@
 	</npc>
 	<npc centerx="33533" centery="31950" centerz="14" radius="1">
 		<npc name="Strange Pipe" x="0" y="0" z="14" spawntime="60" />
-	</npc>
-	<npc centerx="34069" centery="31981" centerz="14" radius="3">
-		<npc name="Bloodshade Rotten" x="0" y="1" z="14" spawntime="60"/>
 	</npc>
 	<npc centerx="32683" centery="31987" centerz="14" radius="1">
 		<npc name="Rapanaio" x="0" y="0" z="14" spawntime="60" />

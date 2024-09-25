@@ -4025,9 +4025,6 @@
 			<attribute key="count" value="2"/>
 			<attribute key="damage" value="20"/>
 		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="eventType" value="stepin"/>
-		</attribute>
 	</item>
 	<item id="2001" article="an" name="unlit campfire">
 		<attribute key="primarytype" value="illumination"/>
@@ -4324,6 +4321,48 @@
 			<attribute key="eventType" value="stepin"/>
 		</attribute>
 	</item>
+	<item id="49284" article="a" name="magic wall White">
+        <attribute key="type" value="magicfield"/>
+        <attribute key="blocking" value="1"/>
+        <attribute key="duration" value="27"/>
+        <attribute key="decayTo" value="0"/>
+    </item>
+    <item id="49283" article="a" name="magic wall Orange">
+        <attribute key="type" value="magicfield"/>
+        <attribute key="blocking" value="1"/>
+        <attribute key="duration" value="27"/>
+        <attribute key="decayTo" value="0"/>
+    </item>
+    <item id="49282" article="a" name="magic wall Purple">
+        <attribute key="type" value="magicfield"/>
+        <attribute key="blocking" value="1"/>
+        <attribute key="duration" value="27"/>
+        <attribute key="decayTo" value="0"/>
+    </item>
+    <item id="49285" article="a" name="magic wall Black">
+        <attribute key="type" value="magicfield"/>
+        <attribute key="blocking" value="1"/>
+        <attribute key="duration" value="27"/>
+        <attribute key="decayTo" value="0"/>
+    </item>
+    <item id="49280" article="a" name="magic wall Light Green">
+        <attribute key="type" value="magicfield"/>
+        <attribute key="blocking" value="1"/>
+        <attribute key="duration" value="27"/>
+        <attribute key="decayTo" value="0"/>
+    </item>
+    <item id="49279" article="a" name="magic wall Green With Blue">
+        <attribute key="type" value="magicfield"/>
+        <attribute key="blocking" value="1"/>
+        <attribute key="duration" value="27"/>
+        <attribute key="decayTo" value="0"/>
+    </item>
+    <item id="49292" article="a" name="magic wall Red With Black">
+        <attribute key="type" value="magicfield"/>
+        <attribute key="blocking" value="1"/>
+        <attribute key="duration" value="27"/>
+        <attribute key="decayTo" value="0"/>
+    </item>
 	<item id="2130" article="a" name="rush wood">
 		<attribute key="primarytype" value="walls"/>
 		<attribute key="type" value="magicfield"/>
@@ -4343,9 +4382,6 @@
 		</attribute>
 		<attribute key="duration" value="120"/>
 		<attribute key="decayTo" value="2132"/>
-		<attribute key="script" value="moveevent">
-			<attribute key="eventType" value="stepin"/>
-		</attribute>
 	</item>
 	<item id="2132" article="a" name="fire field">
 		<attribute key="type" value="magicfield"/>
@@ -20594,9 +20630,6 @@
 		<attribute key="field" value="fire">
 			<attribute key="damage" value="300"/>
 		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="eventType" value="stepin"/>
-		</attribute>
 		<attribute key="replaceable" value="0"/>
 	</item>
 	<item fromid="7474" toid="7475" article="a" name="sarcophagus">
@@ -26317,9 +26350,6 @@
 			<attribute key="count" value="7"/>
 			<attribute key="damage" value="10"/>
 		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="eventType" value="stepin"/>
-		</attribute>
 		<attribute key="replaceable" value="0"/>
 	</item>
 	<item id="10070" article="a" name="fire field">
@@ -26329,9 +26359,6 @@
 			<attribute key="count" value="7"/>
 			<attribute key="damage" value="10"/>
 		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="eventType" value="stepin"/>
-		</attribute>
 		<attribute key="replaceable" value="0"/>
 	</item>
 	<item id="10071" article="a" name="fire field">
@@ -26340,9 +26367,6 @@
 			<attribute key="ticks" value="10000"/>
 			<attribute key="count" value="7"/>
 			<attribute key="damage" value="10"/>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="eventType" value="stepin"/>
 		</attribute>
 		<attribute key="replaceable" value="0"/>
 	</item>
@@ -45036,6 +45060,10 @@ Awarded by TibiaMisterios.com.br"/>
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="1"/>
 	</item>
+	<item id="49286" article="a" name="task token" plural="task tokens">
+		<attribute key="primarytype" value="valuables"/>
+		<attribute key="weight" value="1"/>
+	</item>
 	<item id="22722" article="a" name="copper token" plural="copper tokens">
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="20"/>
@@ -45790,18 +45818,12 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="ticks" value="10000"/>
 			<attribute key="damage" value="25"/>
 		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="eventType" value="stepin"/>
-		</attribute>
 	</item>
 	<item id="23366" article="an" name="energy trap">
 		<attribute key="type" value="magicfield"/>
 		<attribute key="field" value="energy">
 			<attribute key="ticks" value="10000"/>
 			<attribute key="damage" value="25"/>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="eventType" value="stepin"/>
 		</attribute>
 	</item>
 	<item id="23367" article="a" name="toxic trap">
@@ -45810,9 +45832,6 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="ticks" value="10000"/>
 			<attribute key="damage" value="25"/>
 		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="eventType" value="stepin"/>
-		</attribute>
 	</item>
 	<item id="23368" article="a" name="poison trap">
 		<attribute key="type" value="magicfield"/>
@@ -45820,9 +45839,6 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 			<attribute key="ticks" value="5000"/>
 			<attribute key="damage" value="100"/>
 			<attribute key="start" value="5"/>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="eventType" value="stepin"/>
 		</attribute>
 	</item>
 	<item id="23369" article="a" name="blade trap"/>
@@ -46972,7 +46988,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="weight" value="850"/>
 	</item>
-	<item id="23721" article="a" name="gold pouch">
+	<item id="23721" article="a" name="loot pouch">
 		<attribute key="description" value="A infinity bag where you can hold coins."/>
 		<attribute key="containersize" value="20"/>
 		<attribute key="movable" value="0"/>
@@ -58272,9 +58288,6 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="field" value="energy">
 			<attribute key="ticks" value="10000"/>
 			<attribute key="damage" value="25"/>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="eventType" value="stepin"/>
 		</attribute>
 	</item>
 	<item id="31381" name="nothing">
