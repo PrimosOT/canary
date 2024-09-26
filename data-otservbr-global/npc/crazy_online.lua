@@ -1,4 +1,4 @@
-local internalNpcName = "Big Online"
+local internalNpcName = "Crazy Online"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
