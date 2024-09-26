@@ -2154,13 +2154,12 @@
 	<npc centerx="32259" centery="34007" centerz="7" radius="1">
 		<npc name="Imbuement Assistant" x="0" y="0" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="32278" centery="34013" centerz="7" radius="1">
+	<npc centerx="32277" centery="34013" centerz="7" radius="1">
 		<npc name="crazy online" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32253" centery="34015" centerz="7" radius="1">
 		<npc name="task Seller" x="0" y="0" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="32279" centery="34015" centerz="7" radius="1" />
 	<npc centerx="33198" centery="31060" centerz="8" radius="1">
 		<npc name="Rebel" x="0" y="0" z="8" spawntime="60" />
 	</npc>

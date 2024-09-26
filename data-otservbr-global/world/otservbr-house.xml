@@ -257,9 +257,9 @@
 	<house name="Unnamed House #2924" houseid="2924" entryx="32295" entryy="34014" entryz="7" rent="1000000" townid="30" size="25" clientid="0" beds="0" />
 	<house name="Unnamed House #2925" houseid="2925" entryx="32295" entryy="34010" entryz="7" rent="1000000" townid="30" size="26" clientid="0" beds="0" />
 	<house name="Unnamed House #2926" houseid="2926" entryx="32295" entryy="34006" entryz="7" rent="1000000" townid="30" size="18" clientid="0" beds="0" />
-	<house name="Unnamed House #2927" houseid="2927" entryx="32297" entryy="34014" entryz="7" rent="1000000" townid="30" size="21" clientid="0" beds="0" />
-	<house name="Unnamed House #2928" houseid="2928" entryx="32297" entryy="34010" entryz="7" rent="1000000" townid="30" size="25" clientid="0" beds="0" />
-	<house name="Unnamed House #2929" houseid="2929" entryx="32297" entryy="34006" entryz="7" rent="1000000" townid="30" size="17" clientid="0" beds="0" />
+	<house name="Unnamed House #2927" houseid="2927" entryx="32297" entryy="34014" entryz="7" rent="1000000" townid="30" size="24" clientid="0" beds="0" />
+	<house name="Unnamed House #2928" houseid="2928" entryx="32297" entryy="34010" entryz="7" rent="1000000" townid="30" size="29" clientid="0" beds="0" />
+	<house name="Unnamed House #2929" houseid="2929" entryx="32297" entryy="34006" entryz="7" rent="1000000" townid="30" size="21" clientid="0" beds="0" />
 	<house name="Unnamed House #2930" houseid="2930" entryx="32296" entryy="33995" entryz="7" rent="1000000" townid="30" size="148" clientid="0" beds="0" />
 	<house name="Unnamed House #2931" houseid="2931" entryx="32306" entryy="33995" entryz="7" rent="1000000" townid="30" size="134" clientid="0" beds="0" />
 	<house name="Unnamed House #2932" houseid="2932" entryx="32306" entryy="33979" entryz="7" rent="1000000" townid="30" size="34" clientid="0" beds="0" />
@@ -279,5 +279,4 @@
 	<house name="Unnamed House #2948" houseid="2948" entryx="32221" entryy="34034" entryz="7" rent="10000" townid="30" size="73" clientid="0" beds="3" />
 	<house name="Unnamed House #2949" houseid="2949" entryx="32213" entryy="33987" entryz="6" rent="0" townid="30" size="179" clientid="0" beds="0" />
 	<house name="Unnamed House #2950" houseid="2950" entryx="32236" entryy="34023" entryz="7" rent="10000" townid="30" size="238" clientid="0" beds="10" />
-	<house name="" houseid="3700" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" clientid="0" beds="0" />
 </houses>
