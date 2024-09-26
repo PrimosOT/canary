@@ -310,7 +310,6 @@ npcConfig.shop = {
 	{ itemName = "simple dress", clientId = 3568, sell = 50 },
 	{ itemName = "skunk tail", clientId = 10274, sell = 50 },
 	{ itemName = "snake skin", clientId = 9694, sell = 400 },
-	{ itemName = "spool of yarn", clientId = 5886, sell = 1000 },
 	{ itemName = "striped fur", clientId = 10293, sell = 50 },
 	{ itemName = "tattered piece of robe", clientId = 9684, sell = 120 },
 	{ itemName = "thick fur", clientId = 10307, sell = 150 },

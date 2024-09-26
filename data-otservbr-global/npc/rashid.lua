@@ -426,7 +426,6 @@ npcConfig.shop = {
 	{ itemName = "the justice seeker", clientId = 7390, sell = 40000 },
 	{ itemName = "tortoise shield", clientId = 6131, sell = 150 },
 	{ itemName = "vile axe", clientId = 7388, sell = 30000 },
-	{ itemName = "voodoo doll", clientId = 3002, sell = 400 },
 	{ itemName = "war axe", clientId = 3342, sell = 12000 },
 	{ itemName = "war horn", clientId = 2958, sell = 8000 },
 	{ itemName = "witch hat", clientId = 9653, sell = 5000 },
