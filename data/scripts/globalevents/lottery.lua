@@ -2,7 +2,11 @@ local lottery = GlobalEvent("lottery")
 
 local config = {
     interval = "1 Hora",
-    rewards = {[28484] = 1, [9079] = 1, [9086] = 1, [9596] = 1, [37536] = 1, [28495] = 1, [36726] = 1, [36724] = 1, [36723] = 1, [36737] = 1, [36727] = 1, [36728] = 1}, -- Random Reward
+    rewards = {
+        [28484] = 1, [9079] = 1, [9086] = 1, [9596] = 1,
+        [37536] = 1, [28495] = 1, [36726] = 1, [36724] = 1,
+        [36723] = 1, [36737] = 1, [36727] = 1, [36728] = 1
+    }, -- Random Reward
     website = true
 }
 
@@ -43,5 +47,5 @@ function lottery.onThink(interval)
     return true
 end
 
-lottery:interval(3200000) --- 1 minute
+lottery:interval(3600000) --- 1 hora
 lottery:register()

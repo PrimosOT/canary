@@ -16,7 +16,7 @@ task_pt_br = {
 	cancelButton = "Anular",
 	returnButton = "Voltar",
 	title = "Quadro De Missões",
-	missionError = "Missão esta em andamento ou ela já foi concluida.",
+	missionError = "Missão esta em andamento ou ela já foi concluída.",
 	uniqueMissionError = "Você só pode fazer uma missão por vez.",
 	missionErrorTwo = "Você concluiu a missão",
 	missionErrorTwoo = "\nAqui estão suas recompensas:",
@@ -42,241 +42,410 @@ task_pt_br = {
 }
 
 taskConfiguration = {
-{name = "Minotaur", color = 40, total = 5000, type = "once", storage = 190000, storagecount = 190001, 
-	rewards = {
-	{5804, 1},
-	{"exp", 1000000},
+	{name = "Amazon", color = 40, total = 500, type = "repeatable", storage = 190000, storagecount = 190001, 
+		rewards = {
+			{3043, 7},
+			{"exp", 100000},
+		},
+		races = {
+			"Amazon",
+			"Valkyrie",
+		},
 	},
-	races = {
-		"Minotaur",
-		"Minotaur Archer",
-		"Minotaur Mage",
-	},
-},
 
-{name = "Dragon", color = 40, total = 1000, type = "daily", storage = 190002, storagecount = 190003, 
-	rewards = {
-	{3043, 100},
-	{5908, 1},
-	{"exp", 150000},
+	{name = "Stonerefiner", color = 40, total = 500, type = "once", storage = 190002, storagecount = 190003, 
+		rewards = {
+			{3043, 1},
+			{"exp", 100000},
+		},
+		races = {
+			"Stonerefiner",
+		},
 	},
-	races = {
-		"Dragon",
-		"Dragon Lord",
-		"Dragon Hatchling",
-		"Dragon Lord Hatchling",
-	},
-},
 
-{name = "Dragon Lord", color = 40, total = 6000, type = "once", storage = 190004, storagecount = 190005, 
-	rewards = {
-	{5919, 1},
-	{"exp", 150000},
+	{name = "Dragon", color = 40, total = 1000, type = "once", storage = 190004, storagecount = 190005, 
+		rewards = {
+			{10326, 1},
+			{"exp", 300000},
+		},
+		races = {
+			"Dragon",
+		},
 	},
-	races = {
-		"Dragon Lord",
-		"Dragon Lord Hatchling",
-	},
-},
 
-{name = "Rotworm", color = 40, total = 250, type = "once", storage = 190006, storagecount = 190007, 
-	rewards = {
-	{3043, 10},
-	{"exp", 100000},
+	{name = "Dragon Lord", color = 40, total = 6000, type = "once", storage = 190006, storagecount = 190007, 
+		rewards = {
+			{5919, 1},
+		},
+		races = {
+			"Dragon Lord",
+		},
 	},
-	races = {
-		"Rotworm",
-		"Carrion Worm",
-		"White Pale",
-		"Rotworm Queen",
-	},
-},
 
-{name = "Amazon", color = 40, total = 500, type = "repeatable", storage = 190008, storagecount = 190009, 
-	rewards = { 
-	{"exp", 150000},
-	{3437, 1},
+	{name = "Frost Dragon", color = 40, total = 2500, type = "once", storage = 190008, storagecount = 190009, 
+		rewards = {
+			{7290, 5},
+			{"exp", 36737},
+		},
+		races = {
+			"Frost Dragon",
+		},
 	},
-	races = {
-		"Amazon",
-		"Valkyrie",
-		"Xenia",
-	},
-},
 
-{name = "Valkyrie", color = 40, total = 5000, type = "once", storage = 190010, storagecount = 190011, 
-	rewards = { 
-	{3437, 1},
+	{name = "Furys", color = 40, total = 1000, type = "daily", storage = 190010, storagecount = 190011, 
+		rewards = {
+			{19391, 1},
+			{"exp", 36736},
+		},
+		races = {
+			"Fury",
+		},
 	},
-	races = {
-		"Amazon",
-		"Valkyrie",
-		"Xenia",
-	},
-},
 
-{name = "Frazzlemaw", color = 40, total = 1000, type = "daily", storage = 190012, storagecount = 190013, 
-	rewards = { 
-	{22516, 1},
-	{20270, 1},
-	{20272, 1},
+	{name = "Juggernauts", color = 40, total = 5000, type = "once", storage = 190012, storagecount = 190013, 
+		rewards = {
+			{3422, 1},
+			{"exp", 36738},
+		},
+		races = {
+			"Juggernaut",
+		},
 	},
-	races = {
-		"Weakened Frazzlemaw",
-		"Frazzlemaw",
-		"Memory Of A Frazzlemaw",
-		"Guzzlemaw",
-		"Mawhawk",
-	},
-},
 
-{name = "Enfeebled Silencer", color = 40, total = 1000, type = "daily", storage = 190014, storagecount = 190015, 
-	rewards = { 
-	{22721, 1},
+	{name = "Wyrm", color = 40, total = 500, type = "once", storage = 190014, storagecount = 190015, 
+		rewards = {
+			{"exp", 350000},
+			{25730, 1},
+		},
+		races = {
+			"Wyrm",
+			"Elder Wyrm",
+		},
 	},
-	races = {
-		"Enfeebled Silencer",
-	},
-},
 
-{name = "Deepling", color = 40, total = 1000, type = "daily", storage = 190016, storagecount = 190017, 
-	rewards = { 
-	{14142, 1},
-	{"exp", 10000000},
+	{name = "Hydra", color = 40, total = 1000, type = "once", storage = 190016, storagecount = 190017, 
+		rewards = {
+			{12045, 1},
+		},
+		races = {
+			"Hydra",
+		},
 	},
-	races = {
-		"Deepling Guard",
-		"Deepling Warrior",
-		"Deepling Scout",
-	},
-},
 
-{name = "Silencer", color = 40, total = 5000, type = "once", storage = 190018, storagecount = 190019, 
-	rewards = { 
-	{20271, 1},
+	{name = "Medusa", color = 40, total = 2500, type = "once", storage = 190018, storagecount = 190019, 
+		rewards = {
+			{3043, 100},
+		},
+		races = {
+			"Medusa",
+		},
 	},
-	races = {
-		"Silencer",
-	},
-},
 
-{name = "Medusa", color = 40, total = 2500, type = "once", storage = 190020, storagecount = 190021, 
-	rewards = { 
-	{3393, 1},
+	{name = "Grim Reaper", color = 40, total = 5000, type = "once", storage = 190020, storagecount = 190021, 
+		rewards = {
+			{"exp", 7000000},
+		},
+		races = {
+			"Grim Reaper",
+		},
 	},
-	races = {
-		"Medusa",
-	},
-},
 
-{name = "Demon", color = 40, total = 6666, type = "once", storage = 190022, storagecount = 190023, 
-	rewards = { 
-	{3365, 1},
+	{name = "Glooth Bandit", color = 40, total = 1000, type = "daily", storage = 190022, storagecount = 190023, 
+		rewards = {
+			{22721, 10},
+			{22516, 10},
+		},
+		races = {
+			"Glooth Bandit",
+			"Glooth Brigand",
+		},
 	},
-	races = {
-		"Demon",
-	},
-},
 
-{name = "Hero", color = 40, total = 5000, type = "once", storage = 190024, storagecount = 190025, 
-	rewards = { 
-	{3394, 1},
+	{name = "Werelion", color = 40, total = 1000, type = "daily", storage = 190024, storagecount = 190025, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Werelion",
+			"Werelioness",
+		},
 	},
-	races = {
-		"Hero",
-	},
-},
 
-{name = "Cloak Of Terror", color = 40, total = 10000, type = "daily", storage = 190026, storagecount = 190027, 
-	rewards = { 
-	{"exp", 150000000},
+	{name = "Burster Spectre", color = 40, total = 1000, type = "daily", storage = 190026, storagecount = 190027, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Burster Spectre",
+			"Gazer Spectre",
+			"Ripper Spectre",
+		},
 	},
-	races = {
-		"Cloak Of Terror",
-	},
-},
 
-{name = "Vibrant Phantom", color = 40, total = 10000, type = "daily", storage = 190028, storagecount = 190029, 
-	rewards = { 
-	{"exp", 150000000},
+	{name = "Lumbering Carnivor", color = 40, total = 1000, type = "daily", storage = 190028, storagecount = 190029, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Lumbering Carnivor",
+			"Spiky Carnivor",
+			"Menacing Carnivor",
+		},
 	},
-	races = {
-		"Vibrant Phantom",
-	},
-},
 
-{name = "Courage Leech", color = 40, total = 10000, type = "daily", storage = 190030, storagecount = 190031, 
-	rewards = { 
-	{"exp", 150000000},
+	{name = "Priestess Of The Wild Sun", color = 40, total = 1000, type = "daily", storage = 190030, storagecount = 190031, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Priestess Of The Wild Sun",
+			"Black Sphinx Acolyte",
+			"Burning Gladiator",
+		},
 	},
-	races = {
-		"Courage Leech",
-	},
-},
 
-{name = "Brachiodemon", color = 40, total = 10000, type = "daily", storage = 190032, storagecount = 190033, 
-	rewards = { 
-	{"exp", 150000000},
+	{name = "Girtablilu Warrior", color = 40, total = 1000, type = "daily", storage = 190032, storagecount = 190033, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Girtablilu Warrior",
+			"Venerable Girtablilu",
+		},
 	},
-	races = {
-		"Brachiodemon",
-	},
-},
 
-{name = "Infernal Demon", color = 40, total = 10000, type = "once", storage = 190034, storagecount = 190035, 
-	rewards = { 
-	{34109, 2},
+	{name = "Falcon Paladin", color = 40, total = 1000, type = "daily", storage = 190034, storagecount = 190035, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Falcon Paladin",
+			"Falcon Knight",
+		},
 	},
-	races = {
-		"Infernal Demon",
-	},
-},
 
-{name = "Infernal Phantom", color = 40, total = 10000, type = "daily", storage = 190036, storagecount = 190037, 
-	rewards = { 
-	{"exp", 150000000},
+	{name = "Cobra Assassin", color = 40, total = 1000, type = "daily", storage = 190036, storagecount = 190037, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Cobra Assassin",
+			"Cobra Vizier",
+			"Cobra Scout",
+		},
 	},
-	races = {
-		"Infernal Phantom",
-	},
-},
 
-{name = "Juggernaut", color = 40, total = 5000, type = "once", storage = 190038, storagecount = 190039, 
-	rewards = { 
-	{3422, 1},
+	{name = "Draken Abomination", color = 40, total = 1000, type = "daily", storage = 190038, storagecount = 190039, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Draken Abomination",
+			"Draken Elite",
+			"Draken Spellweaver",
+			"Draken Warmaster",
+			"Lizard Legionnaire",
+			"Lizard High Guard",
+			"Lizard Dragon Priest",
+			"Lizard Chosen",
+			"Lizard Noble",
+			"Lizard Magistratus",
+		},
 	},
-	races = {
-		"Juggernaut",
-	},
-},
 
-{name = "Dawnfire Asura", color = 40, total = 5000, type = "daily", storage = 190040, storagecount = 190041, 
-	rewards = { 
-	{"exp", 20000000},
+	{name = "Dawnfire Asura", color = 40, total = 1000, type = "daily", storage = 190040, storagecount = 190041, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Dawnfire Asura",
+			"Midnight Asura",
+			"Frost Flower Asura",
+		},
 	},
-	races = {
-		"Dawnfire Asura",
-	},
-},
 
-{name = "Girtablilu Warrior", color = 40, total = 5000, type = "once", storage = 190042, storagecount = 190043, 
-	rewards = {   
-	{"exp", 100000000},
+	{name = "True Dawnfire Asura", color = 40, total = 1000, type = "daily", storage = 190042, storagecount = 190043, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"True Dawnfire Asura",
+			"True Midnight Asura",
+			"True Frost Flower Asura",
+		},
 	},
-	races = {
-		"Girtablilu Warrior",
-	},
-},
 
-{name = "Dark Carnisylvan", color = 40, total = 2500, type = "once", storage = 190044, storagecount = 190045, 
-	rewards = { 
-	{"exp", 100000000},
+	{name = "Juvenile Bashmu", color = 40, total = 1000, type = "daily", storage = 190044, storagecount = 190045, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Juvenile Bashmu",
+			"Bashmu",
+		},
 	},
-	races = {
-		"Dark Carnisylvan",
+
+	{name = "Chasm Spawn", color = 40, total = 1000, type = "daily", storage = 190046, storagecount = 190047, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Chasm Spawn",
+			"Drillworm",
+			"Cave Devourer",
+			"Diremaw",
+			"Deepworm",
+			"Tunnel Tyrant",
+		},
 	},
-},
+
+	{name = "Afflicted Strider", color = 40, total = 1000, type = "daily", storage = 190048, storagecount = 190049, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Afflicted Strider",
+			"Blemished Spawn",
+			"Eyeless Devourer",
+			"Lavafungus",
+			"Lavaworm",
+			"Streaked Devourer",
+			"Cave Chimera",
+			"Tremendous Tyrant",
+			"Varnished Diremaw",
+		},
+	},
+
+	{name = "Deepling Scout", color = 40, total = 1000, type = "daily", storage = 190050, storagecount = 190051, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Deepling Scout",
+			"Deepling Warrior",
+			"Deepling Guard",
+			"Deathling Scout",
+			"Deathling Spellsinger",
+		},
+	},
+
+	{name = "Vexclaw", color = 40, total = 1000, type = "daily", storage = 190052, storagecount = 190053, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Vexclaw",
+			"Grimeleech",
+			"Hellflayer",
+		},
+	},
+
+	{name = "Flimsy Lost Soul", color = 40, total = 1000, type = "daily", storage = 190054, storagecount = 190055, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Flimsy Lost Soul",
+			"Mean Lost Soul",
+			"Freakish Lost Soul",
+			"Evil Prospector",
+		},
+	},
+
+	{name = "Undead Elite Gladiator", color = 40, total = 1000, type = "daily", storage = 190056, storagecount = 190057, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Undead Elite Gladiator",
+			"Skeleton Elite Warrior",
+		},
+	},
+
+	{name = "Guzzlemaw", color = 40, total = 1000, type = "daily", storage = 190058, storagecount = 190059, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Guzzlemaw",
+			"Frazzlemaw",
+			"Silencer",
+			"Choking Fear",
+			"Retching Horror",
+		},
+	},
+
+	{name = "Crazed Summer Rearguard", color = 40, total = 1000, type = "daily", storage = 190060, storagecount = 190061, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Crazed Summer Rearguard",
+			"Crazed Summer Vanguard",
+			"Crazed Winter Vanguard",
+			"Crazed Winter Rearguard",
+		},
+	},
+
+	{name = "Cursed Book", color = 40, total = 1000, type = "daily", storage = 190062, storagecount = 190063, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Cursed Book",
+			"Ink Blob",
+		},
+	},
+
+	{name = "Icecold Book", color = 40, total = 1000, type = "daily", storage = 190064, storagecount = 190065, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Icecold Book",
+			"Squid Warden",
+			"Animated Feather",
+		},
+	},
+
+	{name = "Energetic Book", color = 40, total = 1000, type = "daily", storage = 190066, storagecount = 190067, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Energetic Book",
+			"Brain Squid",
+			"Energuardian Of Tales",
+		},
+	},
+
+	{name = "Burning Book", color = 40, total = 1000, type = "daily", storage = 190068, storagecount = 190069, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Burning Book",
+			"Rage Squid",
+			"Guardian Of Tales",
+			"Ink Blob",
+		},
+	},
+
+	{name = "Soul War", color = 40, total = 1000, type = "daily", storage = 190070, storagecount = 190071, 
+		rewards = {
+			-- Adicione a recompensa desejada aqui
+		},
+		races = {
+			"Infernal Phantom",
+			"Infernal Demon",
+			"Brachiodemon",
+			"Courage Leech",
+			"Vibrant Phantom",
+			"Cloak Of Terror",
+		},
+	},
 }
+
 
 squareWaitTime = 5000
 taskQuestLog = 65000 -- A storage so you get the quest log

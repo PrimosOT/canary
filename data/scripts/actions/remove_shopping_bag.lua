@@ -32,5 +32,5 @@ function emptybps.onUse(player, item, fromPosition, target, toPosition, isHotkey
     return true
 end
 
-emptybps:id(3217)--aid(26914)
+emptybps:id(42365)--aid(26914)
 emptybps:register()
