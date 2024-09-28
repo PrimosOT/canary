@@ -24793,6 +24793,11 @@
 		<attribute key="maxtextlen" value="149"/>
 		<attribute key="weight" value="1670"/>
 	</item>
+	<item id="49287" article="a" name="stone wall">
+		<attribute key="writeable" value="1"/>
+		<attribute key="maxtextlen" value="149"/>
+		<attribute key="weight" value="1670"/>
+	</item>
 	<item id="9221" article="a" name="laurel wreath">
 		<attribute key="primarytype" value="helmets"/>
 		<attribute key="writeable" value="1"/>

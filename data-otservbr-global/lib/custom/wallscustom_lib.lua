@@ -1,4 +1,4 @@
-CUSTOM_MW_BUY_ITEMID = 9220
+CUSTOM_MW_BUY_ITEMID = 49287
 
 local wallsCustom = {
 	[1]	= {

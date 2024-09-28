@@ -92,7 +92,7 @@ taskConfiguration = {
 		},
 	},
 
-	{name = "Furys", color = 40, total = 1000, type = "daily", storage = 190010, storagecount = 190011, 
+	{name = "Fury", color = 40, total = 1000, type = "daily", storage = 190010, storagecount = 190011, 
 		rewards = {
 			{19391, 1},
 			{"exp", 36736},
@@ -102,7 +102,7 @@ taskConfiguration = {
 		},
 	},
 
-	{name = "Juggernauts", color = 40, total = 5000, type = "once", storage = 190012, storagecount = 190013, 
+	{name = "Juggernaut", color = 40, total = 5000, type = "once", storage = 190012, storagecount = 190013, 
 		rewards = {
 			{3422, 1},
 			{"exp", 36738},
