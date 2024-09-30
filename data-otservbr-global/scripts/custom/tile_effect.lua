@@ -18,7 +18,7 @@ local effects = {
 	{position = Position(32282, 34006, 7), text = 'Roleta!', effect = 40}, -- editado novo
 	{position = Position(32275, 33999, 7), text = 'Remove Bags!', effect = 38}, -- editado novo
 	--{position = Position(32544, 30936, 7), text = 'Remove Bags!', effect = 38}, -- editado novo
-	--{position = Position(32538, 30941, 7), text = 'FORGE!', effect = 54}, -- editado novo
+	{position = Position(32267, 34000, 7), text = 'FORGE!', effect = 54}, -- editado novo
 	--{position = Position(32356, 32225, 7), text = 'FORGE!', effect = 54}, -- editado novo
 	--{position = Position(32373, 32239, 7), text = 'Boss!', effect = 40}, -- editado novo
 	--{position = Position(32356, 32226, 7), text = 'Boss Room!', effect = 40}, -- editado novo
