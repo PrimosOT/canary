@@ -2151,12 +2151,6 @@
 	<npc centerx="32279" centery="33998" centerz="7" radius="1">
 		<npc name="Xodet" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</npc>
-	<npc centerx="32260" centery="33999" centerz="7" radius="1">
-		<npc name="[HUNTS]" x="0" y="0" z="7" spawntime="60" />
-	</npc>
-	<npc centerx="32269" centery="33999" centerz="7" radius="1">
-		<npc name="[BOSSES]" x="0" y="0" z="7" spawntime="60" />
-	</npc>
 	<npc centerx="32250" centery="34006" centerz="7" radius="1">
 		<npc name="crazy Seller" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</npc>

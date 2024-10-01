@@ -5970,6 +5970,14 @@
 			<attribute key="slot" value="backpack"/>
 		</attribute>
 	</item>
+	<item id="49296" article="a" name="skullzsz backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="20"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+	</item>
 	<item id="2855" article="a" name="basket">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="5"/>
