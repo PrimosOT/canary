@@ -44534,6 +44534,14 @@ Awarded by TibiaMisterios.com.br"/>
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="1"/>
 	</item>
+	<item id="49295" article="a" name="Portable forge">
+		<attribute key="primarytype" value="valuables"/>
+		<attribute key="weight" value="1"/>
+	</item>
+	<item id="49299" article="a" name="portable imbuing shrine">
+		<attribute key="primarytype" value="valuables"/>
+		<attribute key="weight" value="1"/>
+	</item>
 	<item id="22517" name="stairs">
 		<attribute key="floorchange" value="north"/>
 	</item>
