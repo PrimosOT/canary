@@ -10850,11 +10850,21 @@
 		<attribute key="primarytype" value="tools"/>
 		<attribute key="weight" value="4500"/>
 	</item>
+	<item id="49302" article="a" name="Mining tier">
+		<attribute key="primarytype" value="tools"/>
+		<attribute key="weight" value="4500"/>
+	</item>
 	<item id="3457" article="a" name="shovel">
 		<attribute key="primarytype" value="tools"/>
 		<attribute key="weight" value="3500"/>
 	</item>
 	<item id="3458" article="an" name="anvil">
+		<attribute key="primarytype" value="utilities"/>
+	</item>
+	<item id="49301" article="an" name="Gold anvil">
+		<attribute key="primarytype" value="utilities"/>
+	</item>
+	<item id="49300" article="an" name="Forge anvil">
 		<attribute key="primarytype" value="utilities"/>
 	</item>
 	<item id="3459" article="a" name="wooden hammer">
