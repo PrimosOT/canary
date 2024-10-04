@@ -8,9 +8,11 @@ local table =
 
 	[20] = {type = "item", id = {2160, 2}, msg = "You win 2 crystal coins for reach the level 20!"},
 	[30] = {type = "bank", id = {20000, 0}, msg = "Was deposited in your bank 20000 gold coins!"},
-	[40] = {type = "addon", id = {136, 128}, msg = "You win the addon citizen full for reach the level 40!"},
-	[50] = {type = "coin", id = {5, 0}, msg = "You win 5 coins for reach the level 50!"},
-	[60] = {type = "mount", id = {2, 0}, msg = "You win the mount x!"},
+	[70] = {type = "addon", id = {136, 128}, msg = "You win the addon citizen full for reach the level 40!"},
+	[100] = {type = "item", id = {2160, 5}, msg = "You win 5 coins for reach the level 50!"},
+	[120] = {type = "mount", id = {2, 0}, msg = "You win the mount x!"},
+	[150] = {type = "addon", id = {252, 251}, msg = "You win the addon Norseman full for reach the level 100!"},
+	[200] = {type = "mount", id = {521, 0}, msg = "You win the mount x!"},
 }
 
 local storage = 15000
