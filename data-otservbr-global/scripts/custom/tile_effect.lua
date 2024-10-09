@@ -29,6 +29,7 @@ local effects = {
 	{position = Position(32246, 34209, 8), text = 'HARD', effect = 57}, -- hunts
 	{position = Position(32242, 34211, 8), text = 'SAIDA', effect = 57}, -- saida hunts
 	{position = Position(32273, 33999, 7), text = 'TASK SYSTEM', effect = CONST_ME_FIREAREA},
+	{position = Position(32260, 34006, 7), text = 'PACK IMBUI', effect = CONST_ME_CRITICAL_DAMAGE},
 	--{position = Position(32542, 30936, 7), text = 'TASK SYSTEM', effect = CONST_ME_FIREAREA},
 	-- {position = Position(32791, 32329, 10), text = 'Use " !libropoi " para conseguir el libro', effect = CONST_ME_FIREAREA},
 

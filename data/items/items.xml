@@ -59348,6 +59348,10 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="description" value="It's black and it's supreme"/>
 		<attribute key="weight" value="1000"/>
 	</item>
+	<item id="49304" article="the" name="teleport scroll">
+		<attribute key="description" value="It's black and it's supreme"/>
+		<attribute key="weight" value="1000"/>
+	</item>
 	<item id="31634" article="a" name="box with waterproof balm">
 		<attribute key="weight" value="240"/>
 	</item>

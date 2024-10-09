@@ -3,8 +3,9 @@ local supremeCube = Action()
 local config = {
     price = 5000,
     storage = 9007,
-    cooldown = 300,
+    cooldown = 60,
     towns = {
+		{ name = "crazy city", teleport = Position(32265, 34010, 7) },
         { name = "Ab'Dendriel", teleport = Position(32732, 31634, 7) },
         { name = "Ankrahmun", teleport = Position(33194, 32853, 8) },
         { name = "Carlin", teleport = Position(32360, 31782, 7) },
@@ -95,5 +96,5 @@ function supremeCube.onUse(player, item, fromPosition, target, toPosition, isHot
     return true
 end
 
-supremeCube:id(31633)
+supremeCube:id(49304)
 supremeCube:register()
